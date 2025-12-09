@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Me</title>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { font-family:Arial, sans-serif; background:#f7f7f7; }
+
+        nav {
+            background:#1e1e2f; color:white; padding:15px 40px;
+            display:flex; justify-content:space-between; align-items:center;
+        }
+        nav a { color:white; margin-left:25px; text-decoration:none; }
+        nav a:hover { text-decoration:underline; }
+        .logo { font-size:22px; font-weight:bold; }
+
+        h2 { text-align:center; margin-top:30px; }
+
+        form {
+            width:350px; margin:auto; margin-top:30px;
+            background:white; padding:25px;
+            border-radius:12px; box-shadow:0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        input, textarea {
+            width:100%; padding:10px;
+            border:1px solid #bbb; border-radius:6px;
+            margin:12px 0;
+        }
+
+        button {
+            width:100%; padding:12px;
+            background:#1e1e2f; color:white;
+            border:none; border-radius:6px;
+            cursor:pointer;
+        }
+        button:hover { background:#34344a; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div class="logo">My Portfolio</div>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<h2>Contact Me</h2>
+
+<form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <input type="text" placeholder="Subject" required>
+    <textarea rows="5" placeholder="Message" required></textarea>
+    <button type="submit">Send</button>
+</form>
+
+</body>
+</html>
